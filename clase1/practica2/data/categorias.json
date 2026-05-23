@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Juegos Acción" },
+  { "id": 2, "nombre": "Música Pop" },
+  { "id": 3, "nombre": "Anime Shonen" },
+  { "id": 4, "nombre": "Periféricos" }
+]

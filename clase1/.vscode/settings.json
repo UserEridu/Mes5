@@ -1,0 +1,37 @@
+{
+    "workbench.colorCustomizations": {
+        "[Catppuccin Mocha]": {
+            "textLink.foreground": "#b4befe",
+            "textLink.activeForeground": "#b4befe",
+            "icon.foreground": "#b4befe",
+            "descriptionForeground": "#a6adc8",
+            "statusBar.background": "#181825",
+            "statusBar.foreground": "#b4befe",
+            "statusBar.noFolderBackground": "#11111b",
+            "statusBar.debuggingBackground": "#b4befe",
+            "statusBar.debuggingForeground": "#11111b",
+            "statusBarItem.remoteBackground": "#b4befe",
+            "statusBarItem.remoteForeground": "#11111b",
+            "activityBar.foreground": "#b4befe",
+            "activityBar.inactiveForeground": "#6c7086",
+            "activityBarBadge.background": "#b4befe",
+            "activityBarBadge.foreground": "#11111b",
+            "activityBar.activeBorder": "#b4befe",
+            "tab.activeForeground": "#b4befe",
+            "tab.activeBorder": "#b4befe",
+            "breadcrumb.foreground": "#b4befe",
+            "breadcrumb.activeSelectionForeground": "#b4befe",
+            "editorGroupHeader.tabsBorder": "#11111b",
+            "list.activeSelectionForeground": "#b4befe",
+            "list.highlightForeground": "#b4befe",
+            "list.activeSelectionIconForeground": "#b4befe",
+            "minimap.selectionHighlight": "#585b7080",
+            "minimap.findMatchHighlight": "#f9e2af80",
+            "minimapSlider.background": "#585b7040",
+            "minimapSlider.hoverBackground": "#585b7060",
+            "minimapSlider.activeBackground": "#585b7080"
+        },
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
+}

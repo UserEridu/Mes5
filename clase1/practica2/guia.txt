@@ -1,0 +1,40 @@
+API REST con datos desde archivos JSON
+========================================
+
+Este ejercicio es igual al anterior (practica1), pero con una diferencia CLAVE:
+los datos iniciales se cargan desde archivos .json en lugar de escribirlos
+directamente en el código.
+
+Estructura del proyecto:
+  practica2/
+  ├── app.js              ← punto de entrada
+  ├── routes/
+  │   ├── usuarios.js     ← CRUD de usuarios
+  │   ├── categorias.js   ← CRUD de categorías
+  │   └── productos.js    ← CRUD de productos
+  ├── data/               ← ← NUEVO: datos en archivos JSON
+  │   ├── usuarios.json
+  │   ├── categorias.json
+  │   └── productos.json
+  └── package.json
+
+¿Qué cambia?
+  - Los datos iniciales viven en archivos separados (data/*.json)
+  - Se importan con:  import datos from './data/archivo.json' with { type: 'json' }
+  - Los nuevos datos creados con POST se agregan en memoria (como antes)
+  - nextId se inicializa según la cantidad de registros existentes en el JSON
+
+Ventaja:
+  - Separas los datos del código
+  - Puedes modificar los .json sin tocar la lógica
+  - Es el paso previo natural antes de usar una base de datos real
+
+Mismos endpoints que en practica1:
+  GET    /api/usuarios
+  GET    /api/usuarios/:id
+  POST   /api/usuarios
+  PUT    /api/usuarios/:id
+  PATCH  /api/usuarios/:id
+  DELETE /api/usuarios/:id
+
+  (y lo mismo para /api/categorias y /api/productos)
